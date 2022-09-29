@@ -1,3 +1,36 @@
+#MESSAGE FROM MLNGN
+MLNGN React Concepts interview/exercise
+This is a barebones React application which serves as a template to explore your understanding of some common React concepts.
+
+Instructions
+Our goal is to allow you to demonstrate your web development skills while working around all of our schedule limitations. We hope that you only spend about one hour completing this exercise. After completion, we will spend 30-45 minutes in our final interview session, where we will discuss your approach to this exercise and complete one basic live coding question.
+
+Create a JSON or Javascript object which defines an inventory of at least four products, each having the following details:
+Name
+Price
+Image
+Create the following React components:
+Product Inventory
+Displays an Inventory Item component for each product in the inventory
+
+Inventory Item
+Displays the Name, Price, and Image of a single product
+
+Shopping Cart
+Displays the names of any products which have been added to the Shopping Cart
+Populate its contents from your choice of state/store (can be simple for this exercise, but be prepared to talk about your choice!)
+Render the Product Inventory, all product Inventory Items, and Shopping Cart from the application landing page (App.jsx)
+Add a button to the Inventory Item which adds a product to the Shopping Cart when clicked.
+That's it! The main goal of this exercise is to see how you structure UI components and share data between them in response to user actions.
+
+Notes
+This is meant to be a quick exercise about basic React concepts. Because of that, it can be ugly. Styles are not important, and all components can appear visually on the landing page at the same time.
+You can find the code's console.log output in the browser console (i.e. Chrome Inspect), not in the integrated repl.it console.
+This sandbox does not support TypeScript (but we wish it did!)
+Even though this is meant to be a small one-off exercise, please take the opportunity to demonstrate strong code organization and separation of concerns.
+If desired, additional dependencies can be added to this project like any other by updating the package.json file.
+We are hoping to understand your effective use of React built-in APIs and/or related libraries. Demonstrating clean implementation using existing tools is more important than writing boilerplate code from scratch.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
